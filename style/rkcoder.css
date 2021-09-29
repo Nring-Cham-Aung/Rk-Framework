@@ -1,0 +1,90 @@
+.rk-fadein{animation: rkfadein 1s linear;}
+.rk-fadein-f{animation: rkfadein .5s linear;}
+.rk-fadein-vf{animation: rkfadein .2s linear;}
+@keyframes rkfadein{from{opacity: 0;}to{opacity: 1;}}
+.rk-fadeout{animation: rkfadeout 1s linear forwards;}
+.rk-fadeout-f{animation: rkfadeout .5s linear forwards;}
+.rk-fadeout-vf{animation: rkfadeout .2s linear forwards;}
+@keyframes rkfadeout{from{opacity: 1;}to{opacity: 0;}}
+.rk-faderight{animation: rkfaderight 1s linear;}
+.rk-faderight-f{animation: rkfaderight .5s linear;}
+.rk-faderight-vf{animation: rkfaderight .2s linear;}
+@keyframes rkfaderight{from{opacity: 0;transform: translateX(200px);}to{opacity: 1;transform: translateX(0px);}}
+.rk-fadeleft{animation: rkfadeleft 1s linear;}
+.rk-fadeleft-f{animation: rkfadeleft .5s linear;}
+.rk-fadeleft-vf{animation: rkfadeleft .2s linear;}
+@keyframes rkfadeleft{from{opacity: 0;transform: translateX(-200px);}to{opacity: 1;transform: translateX(0px);}}
+.rk-fadeup{animation: rkfadeup 1s linear;}
+.rk-fadeup-f{animation: rkfadeup .5s linear;}
+.rk-fadeup-vf{animation: rkfadeup .2s linear;}
+@keyframes rkfadeup{from{opacity: 0;transform: translateY(100px);}to{opacity: 1;transform: translateY(0px);}}
+.rk-fadedown{animation: rkfadedown 1s linear;}
+.rk-fadedown-f{animation: rkfadedown .5s linear;}
+.rk-fadedown-vf{animation: rkfadedown .2s linear;}
+@keyframes rkfadedown{from{opacity: 0;transform: translateY(-100px);}to{opacity: 1;transform: translateY(0px);}}
+.rk-fadezoom-down{animation: rkfadezoomdown 1s linear}
+.rk-fadezoom-down-f{animation: rkfadezoomdown .5s linear}
+.rk-fadezoom-down-vf{animation: rkfadezoomdown .2s linear}
+@keyframes rkfadezoomdown{from{opacity: 0;transform: scale(2,2);}to{opacity: 1;transform: scale(1,1);}}
+.rk-fadezoom-up{animation: rkfadezoomup 1s linear}
+.rk-fadezoom-up-f{animation: rkfadezoomup .5s linear}
+.rk-fadezoom-up-vf{animation: rkfadezoomup .2s linear}
+@keyframes rkfadezoomup{from{opacity: 0;transform: scale(0,0);}to{opacity: 1;transform: scale(1,1);}}
+.rk-rotate3{animation: rkrotate3 1s linear;}
+.rk-rotate3-f{animation: rkrotate3 .5s linear;}
+.rk-rotate3-vf{animation: rkrotate3 .2s linear;}
+@keyframes rkrotate3{from{opacity: 0;transform:rotateX(-180deg) rotateY(-180deg) rotateZ(-180deg);}to{opacity: 1;transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg);}}
+.rk-rotate3r{animation: rkrotate3r 1s linear;}
+.rk-rotate3r-f{animation: rkrotate3r .5s linear;}
+.rk-rotate3r-vf{animation: rkrotate3r .2s linear;}
+@keyframes rkrotate3r{from{opacity: 0;transform:rotateX(180deg) rotateY(180deg) rotateZ(180deg);}to{opacity: 1;transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg);}}
+.rk-bounce{animation: rkbounce 1s linear;}
+.rk-bounce-f{animation: rkbounce .5s linear;}
+.rk-bounce-vf{animation: rkbounce .2s linear;}
+@keyframes rkbounce{0%{transform: translateY(-200px);opacity: 0;}40%{transform: translateY(0px);}55%{transform: translateY(-20px);}70%{transform: translateY(0px);}85%{transform: translateY(-8px);}100%{transform: translateY(0px);opacity: 1;}}
+.rk-fadein-o-50{animation: rkfadein_o50 1s linear;}
+.rk-fadein-o-50-f{animation: rkfadein_o50 .5s linear;}
+.rk-fadein-o-50-vf{animation: rkfadein_o50 .2s linear;}
+.rk-fadeout-o-50{animation: rkfadeout_o50 1s linear;}
+.rk-fadeout-o-50-f{animation: rkfadeout_o50 .5s linear;}
+.rk-fadeout-o-50-vf{animation: rkfadeout_o50 .2s linear;}
+@keyframes rkfadein_o50{from{opacity: 0;}to{opacity: 0.5;}}
+@keyframes rkfadeout_o50{from{opacity: 0.5;}to{opacity: 0;}}
+.rk-shake{animation: rkshake 1s linear;}
+.rk-shake-f{animation: rkshake .5s linear;}
+.rk-shake-vf{animation: rkshake .2s linear;}
+@keyframes rkshake{0%{transform: translateX(0px);}17%{transform: translateX(30px);}51%{transform: translateX(-30px);}85%{transform: translateX(30px);}100%{transform: translateX(0px);}}
+
+.rk-o-1{opacity: 1;}
+.rk-o-0{opacity: 0;}
+.rk-o-25{opacity: .25;}
+.rk-o-50{opacity: .5;}
+.rk-o-75{opacity: .75;}
+.rkhover-text-white:hover{
+    color: white !important;
+}
+.rk-gallery{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rk-gallery img{
+    height: auto;
+    width: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.rk-slide-income-r{animation: rkslideincomer .5s linear;}
+@keyframes rkslideincomer{from{transform: translateX(100%);opacity: 0;}to{transform: translateX(0);opacity: 1;}}
+.rk-slide-income-l{animation: rkslideincomel .5s linear;}
+@keyframes rkslideincomel{from{transform: translateX(-100%);opacity: 0;}to{transform: translateX(0);opacity: 1;}}
+.rk-slide-out-r{animation: rkslideoutr .5s linear forwards;}
+@keyframes rkslideoutr{from{transform: translateX(0);opacity: 1;}to{transform: translateX(100%);opacity: 0;}}
+.rk-slide-out-l{animation: rkslideoutl .5s linear forwards;}
+@keyframes rkslideoutl{from{transform: translateX(0);opacity: 1;}to{transform: translateX(-100%);opacity: 0;}}
+
+
+
